@@ -1,6 +1,6 @@
 from fastapi import FastAPI, Depends
-from .config import Settings
-from .dependencies import get_settings
+from .core.config import Settings
+from .core.dependencies import get_settings
 
 app = FastAPI()
 

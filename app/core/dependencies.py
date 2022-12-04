@@ -1,5 +1,5 @@
 from functools import lru_cache
-from . import config
+from app.core import config
 from app.db import session
 
 
